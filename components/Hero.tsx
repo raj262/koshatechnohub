@@ -198,8 +198,9 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="top" ref={heroRef} className="hero">
+    <>
       <Header />
+      <section id="top" ref={heroRef} className="hero">
       <AnimatePresence mode="wait">
         <motion.div
           key={index}
@@ -283,5 +284,6 @@ export default function Hero() {
         </div>
       </div>
     </section>
+    </>
   );
 }
