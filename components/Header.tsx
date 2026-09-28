@@ -81,7 +81,7 @@ export default function Header({ solid = false }: { solid?: boolean }) {
   return (
     <header className={`header ${solid ? "solid" : ""}`}>
       <div className="header-left">
-        <Logo />
+        <Logo href="/" />
       </div>
       <nav className="nav">
         {NAV.map((item) => (

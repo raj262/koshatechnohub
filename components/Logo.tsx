@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function Logo({ light = false }: { light?: boolean }) {
+export default function Logo({ light = false, href = "#top" }: { light?: boolean; href?: string }) {
   return (
-    <a href="#top" className={`logo ${light ? "logo-light" : ""}`}>
+    <a href={href} className={`logo ${light ? "logo-light" : ""}`}>
       <Image
         src="/logo.png"
         alt="Kosha"
