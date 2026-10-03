@@ -22,7 +22,7 @@ const PATHS = [
     Icon: Waypoints,
     title: "Our Approach",
     text: "A structured way of working that turns complex challenges into clear, scalable solutions.",
-    href: "/#approach",
+    href: "/how-we-think/our-approach",
     cta: "Explore Approach",
   },
   {
@@ -81,7 +81,7 @@ export default function HowWeThinkHub() {
             We combine deep engineering expertise with a long-term perspective to solve meaningful problems for organisations.
           </motion.p>
           <motion.a
-            href="/#approach"
+            href="/how-we-think/our-approach"
             className="hwt-cta"
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}

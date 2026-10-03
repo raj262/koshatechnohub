@@ -66,43 +66,6 @@ const PAGES: Record<string, InsidePage> = {
       place: "Kosha Technohub Pvt. Ltd. · #16, Hootagalli Industrial Area, KRS Main Road, Hootagalli, Mysore, Karnataka, India — 570018",
     },
   },
-  "our-journey": {
-    slug: "our-journey",
-    title: "Our Journey",
-    lede: "A practice shaped by long client relationships: listening first, building carefully, and staying with the work after it goes live.",
-    blocks: [
-      { title: "Listen", text: "The first stretch is spent inside the organisation, not in a proposal." },
-      { title: "Shape", text: "We cut the problem down to the system that will actually be used." },
-      { title: "Build", text: "Engineering follows the agreed shape, with room to correct course." },
-      { title: "Stay", text: "After launch we remain until the team can run it without us in the room." },
-    ],
-  },
-  leadership: {
-    slug: "leadership",
-    title: "Leadership",
-    lede: "Direction stays close to the engineering, and accountable for the outcomes clients actually feel.",
-    blocks: [
-      { title: "Direction", text: "Leaders choose what not to build, so the team can finish what matters." },
-      { title: "Craft", text: "The people who set the standard still read the work, not only the status." },
-      { title: "Accountability", text: "If a system misses, the responsibility sits with us as well as with the plan." },
-    ],
-  },
-  careers: {
-    slug: "careers",
-    title: "Careers",
-    lede: "We look for people who care about clear systems and the organisations that depend on them.",
-    blocks: [
-      { title: "Care for the user", text: "You notice when a screen makes someone's day harder." },
-      { title: "Clear writing", text: "You can explain a technical choice to someone who will live with it." },
-      { title: "Steady delivery", text: "You would rather ship a smaller true thing than a large unfinished one." },
-    ],
-  },
-  contact: {
-    slug: "contact",
-    title: "Contact",
-    lede: "Get in touch and begin your journey. Questions and feedback are welcome — use the form, or email Kosha directly.",
-    blocks: [],
-  },
 };
 
 export function generateStaticParams() {

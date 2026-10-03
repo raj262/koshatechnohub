@@ -197,7 +197,7 @@ export default function TechnologyArchitecture() {
       <section className="ta-belief">
         <div className="ta-belief-bg" aria-hidden>
           <Image
-            src="https://images.unsplash.com/photo-1511818966892-05be0953f8b4?auto=format&fit=crop&w=2200&q=80"
+            src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2200&q=85"
             alt=""
             fill
             sizes="100vw"

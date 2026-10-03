@@ -63,7 +63,7 @@ export default function Approach() {
             We combine strategic thinking, deep technical expertise and a collaborative mindset to deliver solutions that are relevant today and ready for what&apos;s next.
           </p>
           <div className="approach-cta">
-            <ArrowLink href="#connect">Our approach</ArrowLink>
+            <ArrowLink href="/how-we-think/our-approach">Our approach</ArrowLink>
           </div>
         </motion.div>
 

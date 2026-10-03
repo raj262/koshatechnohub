@@ -1,5 +1,5 @@
 export const HOW_WE_THINK = [
-  { label: "Our Approach", href: "/#approach" },
+  { label: "Our Approach", href: "/how-we-think/our-approach" },
   { label: "Engineering Philosophy", href: "/how-we-think/engineering-philosophy" },
   { label: "Technology & Architecture", href: "/how-we-think/technology-architecture" },
   { label: "Security & Responsible Technology", href: "/how-we-think/security-responsible-technology" },

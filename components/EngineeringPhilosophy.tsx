@@ -101,7 +101,7 @@ export default function EngineeringPhilosophy() {
             Our engineering philosophy is shaped by a simple belief — technology should solve real problems, be built to last, and create a positive impact on the people and organisations it serves.
           </motion.p>
           <motion.a
-            href="/#approach"
+            href="/how-we-think/our-approach"
             className="ep-pill"
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
