@@ -19,7 +19,7 @@ const NAV = [
   },
   {
     label: "How We Think",
-    href: "/#approach",
+    href: "/how-we-think",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
     items: HOW_WE_THINK.map((item) => ({ label: item.label, href: item.href })),
   },
