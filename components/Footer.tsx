@@ -2,6 +2,7 @@
 
 import { ArrowRight, Mail } from "lucide-react";
 import Logo from "./Logo";
+import StartProject from "./StartProject";
 
 const GROUPS = [
   {
@@ -36,7 +37,7 @@ const GROUPS = [
   },
   {
     title: "Inside Kosha",
-    href: "/inside-kosha",
+    href: "/inside-kosha/about-us",
     links: [
       { label: "About Us", href: "/inside-kosha/about-us" },
       { label: "Leadership", href: "/inside-kosha/leadership" },
@@ -48,6 +49,8 @@ const GROUPS = [
 
 export default function Footer() {
   return (
+    <>
+    <StartProject />
     <footer id="connect" className="footer">
       <div className="foot">
         <div className="foot-grid">
@@ -101,5 +104,6 @@ export default function Footer() {
         </p>
       </div>
     </footer>
+    </>
   );
 }

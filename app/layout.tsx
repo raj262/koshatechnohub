@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import SmoothScroll from "@/components/SmoothScroll";
+import WaveCursor from "@/components/WaveCursor";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-sans", subsets: ["latin"] });
@@ -24,7 +26,11 @@ export const viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} h-full antialiased`}>
-      <body>{children}</body>
+      <body>
+        <SmoothScroll />
+        <WaveCursor />
+        {children}
+      </body>
     </html>
   );
 }

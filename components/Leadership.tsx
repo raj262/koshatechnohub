@@ -50,7 +50,7 @@ export default function Leadership() {
         </motion.div>
         <div className="ls-hero-inner">
           <motion.p className="ls-crumbs" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45, ease }}>
-            <a href="/inside-kosha">Inside Kosha</a>
+            <a href="/inside-kosha/about-us">Inside Kosha</a>
             <span>/</span>
             Leadership
           </motion.p>

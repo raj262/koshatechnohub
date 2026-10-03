@@ -39,7 +39,7 @@ export default function Careers() {
         <div className="cr-hero-inner">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65, ease }}>
             <p className="cr-crumbs">
-              <a href="/inside-kosha">Inside Kosha</a>
+              <a href="/inside-kosha/about-us">Inside Kosha</a>
               <span>/</span>
               Careers
             </p>

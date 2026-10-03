@@ -38,7 +38,7 @@ const NAV = [
   },
   {
     label: "Inside Kosha",
-    href: "/inside-kosha",
+    href: "/inside-kosha/about-us",
     align: "end" as const,
     image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80",
     items: INSIDE_KOSHA.map((item) => ({ label: item.label, href: item.href })),

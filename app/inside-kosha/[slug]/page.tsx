@@ -61,9 +61,6 @@ const PAGES: Record<string, InsidePage> = {
         { value: "600", label: "Projects completed" },
         { value: "500K+", label: "Lines of code" },
       ],
-      ctaTitle: "Would you like to start a project with Kosha Technohub?",
-      ctaText: "We believe in work that goes beyond the expected. Come build with us.",
-      place: "Kosha Technohub Pvt. Ltd. · #16, Hootagalli Industrial Area, KRS Main Road, Hootagalli, Mysore, Karnataka, India — 570018",
     },
   },
 };

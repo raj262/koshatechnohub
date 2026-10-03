@@ -35,7 +35,7 @@ export default function ContactPage() {
         <div className="ct-hero-inner">
           <motion.div className="ct-intro" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65, ease }}>
             <p className="ct-crumbs">
-              <a href="/inside-kosha">Inside Kosha</a>
+              <a href="/inside-kosha/about-us">Inside Kosha</a>
               <span>/</span>
               Contact Us
             </p>

@@ -20,9 +20,6 @@ export type AboutStory = {
   marksTitle: string;
   marks: { src: string; alt: string; dark?: boolean }[];
   stats: { value: string; label: string }[];
-  ctaTitle: string;
-  ctaText: string;
-  place: string;
 };
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -225,19 +222,6 @@ export default function AboutView({
         </div>
       </section>
 
-      <motion.section className="ab-cta" variants={rise} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.4 }}>
-        <div className="ab-cta-copy">
-          <p className="ab-kicker">Start a project</p>
-          <h2 className="serif">{story.ctaTitle}</h2>
-          <p>{story.ctaText}</p>
-        </div>
-        <div className="ab-cta-side">
-          <p className="ab-place">{story.place}</p>
-          <motion.a href="/inside-kosha/contact" whileHover={{ y: -3 }} whileTap={{ scale: 0.98 }}>
-            Get in touch
-          </motion.a>
-        </div>
-      </motion.section>
     </div>
   );
 }
