@@ -95,7 +95,7 @@ const itemIn = {
 
 const trackItem = {
   hidden: { opacity: 0, y: 28, scale: 0.82 },
-  show: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", stiffness: 340, damping: 22 } },
+  show: { opacity: 1, y: 0, scale: 1, transition: { type: "spring" as const, stiffness: 340, damping: 22 } },
 };
 
 function JourneyTrack({ currentSlug }: { currentSlug: string }) {
