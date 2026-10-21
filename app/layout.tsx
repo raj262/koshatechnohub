@@ -26,7 +26,7 @@ export const viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} h-full antialiased`}>
-      <body>
+      <body suppressHydrationWarning>
         <SmoothScroll />
         <WaveCursor />
         {children}
