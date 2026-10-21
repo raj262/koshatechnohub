@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 
 function disposeObject(object: THREE.Object3D) {
-  object.traverse((node) => {
+  object.traverse((node: THREE.Object3D) => {
     const mesh = node as THREE.Mesh;
     if (mesh.geometry) mesh.geometry.dispose();
     const material = mesh.material;
